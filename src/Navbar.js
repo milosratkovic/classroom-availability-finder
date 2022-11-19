@@ -1,16 +1,17 @@
 const Navbar = () => { 
-    return ( 
-        <nav className="navbar">
-            <h1>SFU Available Classroom Finder</h1>
-            <div className="links">
-                <a href='/'>Home</a>
-                <a href='/'>Search By Date</a>
-                <a href='/QuickSearch'>Quick Search</a>
-                <a href='/SearchByRoom'>Search By Room</a>
+    return ( <nav className="navbar">
+        
 
-               
-            </div>
-        </nav>
+<div class="topnav" id="myTopnav">
+  <a href='/' class="active">Home</a>
+  <a href='/'>Search By Date</a>
+   <a href='/QuickSearch'>Quick Search</a>
+ <a href='/SearchByRoom'>Search By Room</a>
+  
+</div>
+</nav>
+
+  
 
 
     );

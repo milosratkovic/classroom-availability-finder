@@ -163,29 +163,35 @@ li {
   text-align: center;
 }
 
-.navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 7
-  00px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-}
-.navbar h1 {
-  color: #962B2D;
+.topnav {
+  background-color: #333;
+  overflow: hidden;
 }
 
-.navbar .links {
-  margin-left: auto;
-}
-
-.navbar a {
-  margin-left: 16px;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  padding: 6px;
+  font-size: 17px;
 }
 
-.navbar a:hover {
-  color: #962B2D;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #00A4CCFF;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #aa0423;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
 }
