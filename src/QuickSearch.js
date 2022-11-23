@@ -112,7 +112,7 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
         
 
       </form>
-        <SearchResults resultInfo = {resultInfo} availableClassrooms = {availableClassrooms} />
+        <SearchResults resultInfo = {resultInfo} availableClassrooms = {availableClassrooms}dayWeek = {dayWeek} start={start} />
         
 
   </div>}

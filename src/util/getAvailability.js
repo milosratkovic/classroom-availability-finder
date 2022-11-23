@@ -3,10 +3,9 @@ function getAvailability(start_time, end_time, dayNum){
   var json = require('../data/data_SFU.json'); 
 
 
-const daysOfWeek = ["0", "1", "2", "3", "4"]
 
 
-let day = daysOfWeek[dayNum - 1] 
+let day = dayNum-1;
 
 function isOccupied(timeObject){
  

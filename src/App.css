@@ -159,6 +159,15 @@ li {
   /* margin-left: 20px; */
 }
 
+#freeUntil { 
+  color: #070707;
+
+}
+
+#freeUntilTime{
+    color: #e62121;
+
+  }
 .centered {
   text-align: center;
 }

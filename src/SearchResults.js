@@ -1,6 +1,11 @@
 import {useState, useEffect } from "react";
+import { freeUntil } from './util/freeUntil';
+
 //Rename the function since searchResults.js is a utility function ... or rename the utility 
-const SearchResults = ({resultInfo,availableClassrooms}) => { 
+const SearchResults = ({resultInfo,availableClassrooms,dayWeek,start}) => { 
+    
+    console.log(start);
+    console.log(dayWeek);
     const [searchTerm, setSearchTerm] = useState("");
     let [ResultCount, setResultCount] = useState("");
     
@@ -54,7 +59,7 @@ const SearchResults = ({resultInfo,availableClassrooms}) => {
         
           return (
             
-          <li> <a href= {classroom} key = {index.toString()}> {ResultCount = index+1} -  {classroom}</a>   </li>
+          <li> <a href= {classroom} key = {index.toString()}> {ResultCount = index+1} -  {classroom} </a>  <small id="freeUntil">is Free Until:</small> <small id ="freeUntilTime" > {freeUntil(classroom,dayWeek,start)}</small>  </li>
           
           
           )
