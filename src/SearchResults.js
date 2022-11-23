@@ -15,6 +15,7 @@ const SearchResults = ({resultInfo,availableClassrooms}) => {
         
       
 
+        <h3 className = "warning-text">Note: <small> This tool's database does not detect workshops, club events, or other non-course related bookings. It may also show restricted labs as available. I am working on a solution. Thank you for your patience. </small></h3>
 
         <input 
             type ="Text"
