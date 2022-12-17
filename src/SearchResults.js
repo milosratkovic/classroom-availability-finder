@@ -55,7 +55,7 @@ const SearchResults = ({resultInfo,availableClassrooms}) => {
         
           return (
             
-          <li> key = {index.toString()}> {ResultCount = index+1} -  {classroom}  </li>
+          <li> <a href= "https://roomfinder.sfu.ca/apps/sfuroomfinder_web/" key = {index.toString()}> {ResultCount = index+1} -  {classroom} </a>  </li>
           
           
           )
