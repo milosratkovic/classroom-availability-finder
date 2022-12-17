@@ -55,7 +55,7 @@ const SearchResults = ({resultInfo,availableClassrooms}) => {
         
           return (
             
-          <li> <a href= {classroom} key = {index.toString()}> {ResultCount = index+1} -  {classroom}</a>   </li>
+          <li> key = {index.toString()}> {ResultCount = index+1} -  {classroom}  </li>
           
           
           )
