@@ -15,7 +15,6 @@ const SearchResults = ({resultInfo,availableClassrooms}) => {
         
       
 
-
         <input 
             type ="Text"
             placeholder= "Search..."
@@ -24,6 +23,7 @@ const SearchResults = ({resultInfo,availableClassrooms}) => {
                 setResultCount(ResultCount)
                 
             }}
+            
             />
             
             <select name="Location" id="Location" defaultValue={""} onChange={(event) => { 

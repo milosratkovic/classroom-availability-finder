@@ -16,7 +16,7 @@ const SearchByDate = (today) => {
   const [availableClassrooms, setAvailableClassrooms] = useState([]);
 
   
-  const endDate = "2022-12-31"; // Last day the scraped data applies to 
+  const endDate = "2023-04-11"; // Last day the scraped data applies to 
 
   
   let currentDate = new Date();
@@ -69,7 +69,6 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
 
   return <div className="Search-by-date">
       
-
       <h2 className = "study-text">Search By Date:</h2>
       
       

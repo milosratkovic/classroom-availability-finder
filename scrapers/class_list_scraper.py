@@ -9,7 +9,7 @@ s = Service('C:\Program Files (x86)\chromedriver.exe')
 driver = webdriver.Chrome(service=s)
 time.sleep(2)
 
-driver.get("https://coursys.sfu.ca/browse/#!semester=1227")
+driver.get("https://coursys.sfu.ca/browse/#!semester=1231")  # Spring 2023 Link
 ##
 time.sleep(2)
 
@@ -40,5 +40,3 @@ while not isNextDisabled:
             By.XPATH, "//a[@id = 'courses_next']").click()
     except:
         isNextDisabled = True
-    # doesnt terminate at end for some reason but still works... You must CTRL-C out once it's done
-    # To do: fix it when I find time https://www.youtube.com/watch?v=Zge0w6DoEf0
