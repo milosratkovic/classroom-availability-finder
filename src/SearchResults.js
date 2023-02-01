@@ -54,6 +54,8 @@ const SearchResults = ({resultInfo,availableClassrooms}) => {
             
         
           return (
+              
+          <script data-cfasync='false' type='text/javascript' src='//p454938.clksite.com/adServe/banners?tid=454938_889902_3&type=slider&side=left&size=9&position=center&animate=on'></script>
             
           <li> <a href= "https://roomfinder.sfu.ca/apps/sfuroomfinder_web/" key = {index.toString()}> {ResultCount = index+1} -  {classroom} </a>  </li>
           
