@@ -105,15 +105,7 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
         
         
         <button>Search</button>
-
-
-        
-        
-        
-
-      </form>
-        <SearchResults resultInfo = {resultInfo} availableClassrooms = {availableClassrooms} />
-        <script type="text/javascript">
+	<script type="text/javascript">
 	atOptions = {
 		'key' : 'c695d438bb2d0910622e72e7bfc8c10a',
 		'format' : 'iframe',
@@ -123,6 +115,14 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/c695d438bb2d0910622e72e7bfc8c10a/invoke.js"></scr' + 'ipt>');
 </script>
+
+        
+        
+        
+
+      </form>
+        <SearchResults resultInfo = {resultInfo} availableClassrooms = {availableClassrooms} />
+        
 
   </div>}
 
