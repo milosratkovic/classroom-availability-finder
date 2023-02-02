@@ -105,16 +105,7 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
         
         
         <button>Search</button>
-	<script type="text/javascript">
-	atOptions = {
-		'key' : 'c695d438bb2d0910622e72e7bfc8c10a',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/c695d438bb2d0910622e72e7bfc8c10a/invoke.js"></scr' + 'ipt>');
-</script>
+	
 
         
         
