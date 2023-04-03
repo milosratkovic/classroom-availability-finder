@@ -5,6 +5,13 @@ const BlogPost = () => {
   return (
     <>
     <div className="blog-post">
+     <h2 className="blog-post-title">Find Your Path to Success with Our Grade Calculator</h2>
+    <p>As a student at Simon Fraser University, you know that grades are a critical part of your academic success. With our grade calculator, you can easily determine what grade you need to achieve in a course to reach your target GPA. Whether you're trying to maintain a scholarship, graduate with honors, or just pass a course, our grade calculator can help you stay on track.</p>
+    <p>To use our grade calculator, simply input your current grade, the weight of the remaining assignments, and your desired final grade. Our calculator will then determine what you need to score on your remaining assignments to achieve your target grade.</p>
+    <p>Our grade calculator is easy to use and can help you make informed decisions about how to allocate your study time and effort. Plus, it's completely free!</p>
+     <p><b><a href="/FinalGradeCalculator">Click Here to Try Our Grade Calculator Now</a></b></p>
+    </div>
+    <div className="blog-post">
       <h2 className="blog-post-title">Make Your Student Life Easier with Amazon Prime Student</h2>
       <p>As a student at Simon Fraser University, you can benefit greatly from the many perks that come with an Amazon Prime Student membership. With free two-day shipping on eligible items, you can get all the textbooks and supplies you need without having to leave campus or wait for days for them to arrive. Plus, with Prime Video and Prime Music streaming, you can unwind after a long day of classes and studying by watching your favorite TV shows, movies, and listening to music.</p>
       <p>But that's not all. Amazon Prime Student also offers unlimited photo storage, so you never have to worry about running out of space on your phone or laptop. And with exclusive deals and discounts just for students, you can save money while still getting everything you need.</p>
