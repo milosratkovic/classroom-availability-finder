@@ -42,7 +42,7 @@ const BlogPost = () => {
       </ol>
       <p>By following these tips, you can find the perfect study space at Simon Fraser University and boost your productivity. Good luck with your studies!</p>
     </div>
-    <>
+    </>
   );
 };
 
