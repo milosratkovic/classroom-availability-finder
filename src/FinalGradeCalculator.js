@@ -55,10 +55,10 @@ function FinalGradeCalculator() {
       <br />
       {assignments.map((assignment, index) => (
         <div key={index}>
-          <label htmlFor={`grade-${index}`}>Assignment Grade:</label>
+          <small><label htmlFor={`grade-${index}`}><Assignment Grade:</label></small>
           <input type="number" id={`grade-${index}`} value={assignment.grade} onChange={(e) => handleGradeChange(index, e.target.value)} />
           %&nbsp;
-          <label htmlFor={`weight-${index}`}>Weight:</label>
+          <small><label htmlFor={`weight-${index}`}>Weight:</label></small>
           <input type="number" id={`weight-${index}`} value={assignment.weight} onChange={(e) => handleWeightChange(index, e.target.value)} />
           %&nbsp;
           <button onClick={() => handleRemoveAssignment(index)}>Remove</button>
