@@ -4,7 +4,7 @@ import './BlogPost.css'; // Import CSS file for styling
 const BlogPost = () => {
   return (
     <div className="blog-post">
-      <h2 className="blog-post-title">10 Tips for Finding the Perfect Study Space at Simon Fraser University</h2>
+      <h2 className="blog-post-title">10 Tips for Finding the Best Study Spaces and Boosting Your Productivity at Simon Fraser University</h2>
       <ol className="blog-post-list">
         <li className="blog-post-item">Use Classroomfinder.ca: Classroomfinder.ca is a website that lets you input a time range and date to search for an empty classroom at Simon Fraser University that you can use to study in. This is a great tool to help you find available study spaces on campus.</li>
         <li className="blog-post-item">Check the library website: The library website provides information on the availability of study spaces and computer workstations in the library. You can also reserve a study room in advance.</li>
