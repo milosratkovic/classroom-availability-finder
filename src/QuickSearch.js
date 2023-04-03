@@ -125,7 +125,7 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
 /></center>
 
         <SearchResults resultInfo = {resultInfo} availableClassrooms = {availableClassrooms} />
-          https://www.amazon.ca/amazonprime?_encoding=UTF8&*Version*=1&*entries*=0&planOptimizationId=WLPStudentMonthlyEligiblePlans&primeCampaignId=studentWlpPrimeRedir&ref_=ihub_curatedcontent_8a3f4d01-b24e-4dfd-be61-387993ea09a1&linkCode=ib1&tag=milos05-20&linkId=519931da36a11fdcd9cb9f784682e643
+         
         
 
   </div>}
