@@ -59,6 +59,9 @@ const Home= () => {
 
         <Route exact path="/BlogPost"><BlogPost/>
         </Route>
+
+        <Route exact path="/FinalGradeCalculator"><FinalGradeCalculator/>
+        </Route>
       </Switch>
       
       
