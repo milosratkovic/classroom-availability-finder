@@ -5,7 +5,8 @@ const Navbar = () => {
 <div class="topnav" id="myTopnav">
   <a href='/' class="active">Home</a>
   <a href='/'>Search By Date</a>
-   <a href='/QuickSearch'>Quick Search</a>
+  <a href='/QuickSearch'>Quick Search</a>
+  <a href='/GradeCalculator'>Grade Calculator</a>
   <a href='/BlogPost'>Blog</a>
            
  {/* <a href='/SearchByRoom'>Search By Room</a> */}
