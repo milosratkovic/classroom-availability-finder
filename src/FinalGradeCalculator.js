@@ -40,6 +40,7 @@ function FinalGradeCalculator() {
   };
 
   const calculateRequiredGrade = () => {
+    calculateGrade();
     const totalWeight = assignments.reduce((acc, curr) => acc + curr.weight, 0);
     const remainingWeight = 100 - totalWeight;
     const remainingWeightGrade = (targetGrade - (grade * (totalWeight / 100))) / (remainingWeight / 100);
@@ -57,7 +58,7 @@ function FinalGradeCalculator() {
         <div key={index}>
           <label htmlFor={`grade-${index}`}><small>Assignment Grade:</small></label>
           <input type="number" id={`grade-${index}`} value={assignment.grade} onChange={(e) => handleGradeChange(index, e.target.value)} />
-          
+          <br>
          <label htmlFor={`weight-${index}`}><small>Weight:</small></label>
           <input type="number" id={`weight-${index}`} value={assignment.weight} onChange={(e) => handleWeightChange(index, e.target.value)} />
           %&nbsp;
