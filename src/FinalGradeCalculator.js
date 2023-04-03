@@ -57,7 +57,7 @@ function FinalGradeCalculator() {
         <div key={index}>
           <label htmlFor={`grade-${index}`}><small>Assignment Grade:</small></label>
           <input type="number" id={`grade-${index}`} value={assignment.grade} onChange={(e) => handleGradeChange(index, e.target.value)} />
-          %&nbsp;
+          
          <label htmlFor={`weight-${index}`}><small>Weight:</small></label>
           <input type="number" id={`weight-${index}`} value={assignment.weight} onChange={(e) => handleWeightChange(index, e.target.value)} />
           %&nbsp;
