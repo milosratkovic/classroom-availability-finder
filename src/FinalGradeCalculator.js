@@ -48,13 +48,18 @@ function FinalGradeCalculator() {
   return (
     <div>
       <h1>Final Grade Calculator</h1>
+      <p>Enter your assignment grades and weights below to calculate your final grade. Use the "Add Assignment" button to add more assignments. Once you have entered all of your assignments, click the "Calculate Grade" button to see your current final grade. To find out what grade you need on the remaining weight of the course to achieve a certain final grade, enter your target grade below and click the "Calculate Required Grade" button.</p>
       <button onClick={handleAddAssignment}>Add Assignment</button>
       <br />
       <br />
       {assignments.map((assignment, index) => (
         <div key={index}>
-          <input type="number" value={assignment.grade} onChange={(e) => handleGradeChange(index, e.target.value)} />
-          <input type="number" value={assignment.weight} onChange={(e) => handleWeightChange(index, e.target.value)} />
+          <label htmlFor={`grade-${index}`}>Assignment Grade:</label>
+          <input type="number" id={`grade-${index}`} value={assignment.grade} onChange={(e) => handleGradeChange(index, e.target.value)} />
+          %&nbsp;
+          <label htmlFor={`weight-${index}`}>Weight:</label>
+          <input type="number" id={`weight-${index}`} value={assignment.weight} onChange={(e) => handleWeightChange(index, e.target.value)} />
+          %&nbsp;
           <button onClick={() => handleRemoveAssignment(index)}>Remove</button>
           <br />
         </div>
