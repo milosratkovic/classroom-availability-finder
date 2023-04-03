@@ -55,6 +55,9 @@ const Home= () => {
     
         <Route exact path="/QuickSearch"><QuickSearch today = {today}  />
         </Route>
+
+        <Route exact path="/BlogPost"><BlogPost/>
+        </Route>
       </Switch>
       
       
