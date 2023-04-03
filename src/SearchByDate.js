@@ -128,13 +128,7 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
         <SearchResults resultInfo = {resultInfo} availableClassrooms = {availableClassrooms} />
 	
         
-<center> <a 
-  target="_blank"
-  href="https://www.amazon.ca/Best-Sellers-Office-Products/zgbs/office?_encoding=UTF8&linkCode=ib1&tag=milos05-20&linkId=678182b0a5641ba5da1924aacd5fe183&ref_=ihub_curatedcontent_bfc62b2f-a455-43c6-aef5-97ac043f7cf4"
->
-  Best Sellers in Office Products
-</a>
-</center> 
+ 
   </div>}
 
   export default SearchByDate;
