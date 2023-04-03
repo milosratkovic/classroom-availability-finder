@@ -3,6 +3,7 @@ import './BlogPost.css'; // Import CSS file for styling
 
 const BlogPost = () => {
   return (
+    <>
     <div className="blog-post">
       <h2 className="blog-post-title">Make Your Student Life Easier with Amazon Prime Student</h2>
       <p>As a student at Simon Fraser University, you can benefit greatly from the many perks that come with an Amazon Prime Student membership. With free two-day shipping on eligible items, you can get all the textbooks and supplies you need without having to leave campus or wait for days for them to arrive. Plus, with Prime Video and Prime Music streaming, you can unwind after a long day of classes and studying by watching your favorite TV shows, movies, and listening to music.</p>
@@ -41,6 +42,7 @@ const BlogPost = () => {
       </ol>
       <p>By following these tips, you can find the perfect study space at Simon Fraser University and boost your productivity. Good luck with your studies!</p>
     </div>
+    <>
   );
 };
 
