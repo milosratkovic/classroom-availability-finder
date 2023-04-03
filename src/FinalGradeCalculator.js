@@ -29,7 +29,8 @@ function FinalGradeCalculator() {
     setAssignments(newAssignments);
   };
 
-  const calculateGrade = () => {
+  const 
+  = () => {
     const totalWeight = assignments.reduce((acc, curr) => acc + curr.weight, 0);
     const weightedGrades = assignments.reduce((acc, curr) => acc + curr.grade * (curr.weight / totalWeight), 0);
     setGrade(weightedGrades);
@@ -40,7 +41,6 @@ function FinalGradeCalculator() {
   };
 
   const calculateRequiredGrade = () => {
-    calculateGrade();
     const totalWeight = assignments.reduce((acc, curr) => acc + curr.weight, 0);
     const remainingWeight = 100 - totalWeight;
     const remainingWeightGrade = (targetGrade - (grade * (totalWeight / 100))) / (remainingWeight / 100);
