@@ -5,7 +5,7 @@ import SearchByDate from "./SearchByDate";
 import SearchByRoom from "./SearchByRoom"
 import BlogPost from "./BlogPost"
 import FinalGradeCalculator from "./FinalGradeCalculator"
-import PomodoroTimer from "./PomodoroTimer"
+
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
@@ -66,8 +66,6 @@ const Home= () => {
         <Route exact path="/FinalGradeCalculator"><FinalGradeCalculator/>
         </Route>
 
-        <Route exact path="/PomodoroTimer"><PomodoroTimer/>
-        </Route>
       </Switch>
       
       
