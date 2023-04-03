@@ -112,7 +112,7 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
         
 
       </form>
-  <iframe
+  <center><iframe
   src="//ws-na.amazon-adsystem.com/widgets/cm?o=15&p=12&l=ur1&category=primestudent&banner=09T4RTRGDTMCPCMYJVR2&f=ifr&linkID=e1c605fe9f198762a1ff5a6ea07340b6&t=milos05-20&tracking_id=milos05-20"
   width="300"
   height="250"
@@ -122,7 +122,7 @@ return ` for ${dayOfWeek} ${dateSelected} from ${start} to ${end}`
   style={{border: 'none'}}
   frameBorder="0"
   sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"
-/>
+/></center>
 
         <SearchResults resultInfo = {resultInfo} availableClassrooms = {availableClassrooms} />
         
