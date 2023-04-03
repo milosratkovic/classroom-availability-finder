@@ -4,6 +4,7 @@ import QuickSearch from "./QuickSearch.js";
 import SearchByDate from "./SearchByDate";
 import SearchByRoom from "./SearchByRoom"
 import BlogPost from "./BlogPost"
+import FinalGradeCalculator from "./FinalGradeCalculator"
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 
