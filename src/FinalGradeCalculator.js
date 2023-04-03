@@ -67,12 +67,12 @@ function FinalGradeCalculator() {
       ))}
       <br />
       <button onClick={calculateGrade}>Calculate Grade</button>
-      <h2>Final Grade: {grade.toFixed(2)}</h2>
+      <h2>Final Grade: {grade.toFixed(2)} %</h2>
       <br />
       <label htmlFor="target-grade">Target Grade:</label>
       <input type="number" id="target-grade" value={targetGrade} onChange={handleTargetGradeChange} />
       <button onClick={calculateRequiredGrade}>Calculate Required Grade</button>
-      <h2>Required Grade: {requiredGrade.toFixed(2)}</h2>
+      <h2>Required Grade: {requiredGrade.toFixed(2)} %</h2>
     </div>
   );
 }
