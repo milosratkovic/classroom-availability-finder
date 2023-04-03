@@ -10,6 +10,7 @@ const BlogPost = () => {
       <p>But that's not all. Amazon Prime Student also offers unlimited photo storage, so you never have to worry about running out of space on your phone or laptop. And with exclusive deals and discounts just for students, you can save money while still getting everything you need.</p>
       <p>The best part? You can try Amazon Prime Student for free for six months, and then pay only 50% of the regular membership fee once the trial ends. And if you sign up using our affiliate link, you'll not only get all the benefits of Amazon Prime Student, but you'll also be supporting our website.</p>
       <p>So what are you waiting for? Join the millions of students already enjoying the many perks of Amazon Prime Student, and make your life a little easier and more convenient today.</p>
+      <p><a href="https://amzn.to/3U5LGGR">Get Amazon Prime For Free</a></p> 
     <center><iframe 
   src="//ws-na.amazon-adsystem.com/widgets/cm?o=15&p=12&l=ur1&category=primestudent&banner=09T4RTRGDTMCPCMYJVR2&f=ifr&linkID=e1c605fe9f198762a1ff5a6ea07340b6&t=milos05-20&tracking_id=milos05-20"
   width="300"
