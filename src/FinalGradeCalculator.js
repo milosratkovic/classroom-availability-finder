@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './style.css';
 
 function FinalGradeCalculator() {
   const [assignments, setAssignments] = useState([]);
