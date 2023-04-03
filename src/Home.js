@@ -3,6 +3,7 @@ import formattedDay from './/util/formattedDay.js'
 import QuickSearch from "./QuickSearch.js";
 import SearchByDate from "./SearchByDate";
 import SearchByRoom from "./SearchByRoom"
+import BlogPost from "./BlogPost"
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 
