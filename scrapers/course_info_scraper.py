@@ -8,7 +8,7 @@ import json
 
 # # Setup
 # Change start and end values in dates_URL to a week with no Holidays. Run scraper daily for first 3 weeks. Weekly thereafter
-dates_URL = "?caldata=yes&start=2023-01-15T00%3A00%3A00-08%3A00&end=2023-01-21T00%3A00%3A00-08%3A00"
+dates_URL = "?caldata=yes&start=2023-05-15T00%3A00%3A00-08%3A00&end=2023-05-20T00%3A00%3A00-08%3A00"
 s = Service('C:\Program Files (x86)\chromedriver.exe')
 driver = webdriver.Chrome(service=s)
 time.sleep(2)
