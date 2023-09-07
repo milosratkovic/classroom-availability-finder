@@ -16,7 +16,7 @@ const SearchByDate = (today) => {
   const [availableClassrooms, setAvailableClassrooms] = useState([]);
 
   
-  const endDate = "2023-08-04"; // Last day the scraped data applies to 
+  const endDate = "2023-12-05"; // Last day the scraped data applies to 
 
   
   let currentDate = new Date();
