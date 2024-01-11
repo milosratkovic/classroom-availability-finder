@@ -7,7 +7,7 @@ const Navbar = () => {
   <a href='/'>Search By Date</a>
   <a href='/QuickSearch'>Quick Search</a>
   <a href='/FinalGradeCalculator'>Grade Calculator</a>
-  <a href='/BlogPost'>Blog</a>
+  
            
  {/* <a href='/SearchByRoom'>Search By Room</a> */}
   
