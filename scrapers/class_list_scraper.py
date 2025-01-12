@@ -9,7 +9,7 @@ s = Service('C:\Program Files (x86)\chromedriver.exe')
 driver = webdriver.Chrome(service=s)
 time.sleep(2)
 
-driver.get("https://coursys.sfu.ca/browse/#!semester=1234")  # Summer 2023 Link
+driver.get("https://coursys.sfu.ca/browse/#!semester=1251")  # Spring 2025 Link
 ##
 time.sleep(2)
 
