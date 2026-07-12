@@ -16,7 +16,7 @@ const QuickSearch = (today) => { //nuke "time"
   const [availableClassrooms, setAvailableClassrooms] = useState([]);
 
   
-  const endDate = "2026-04-10"; // Last day the scraped data applies to 
+  const endDate = "2026-08-23"; // Last day the scraped data applies to 
 
   
   let currentDate = new Date();
